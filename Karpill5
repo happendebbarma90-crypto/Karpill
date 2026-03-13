@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>KarpillStore MLBB Recharge</title>
+
+<style>
+
+body{
+font-family: Arial;
+background-image:url("background.jpg");
+background-size:cover;
+background-position:center;
+text-align:center;
+color:white;
+}
+
+.overlay{
+background:rgba(0,0,0,0.7);
+padding:20px;
+margin:40px auto;
+width:350px;
+border-radius:15px;
+}
+
+input,select{
+width:90%;
+padding:10px;
+margin:10px;
+border-radius:8px;
+border:none;
+}
+
+.card{
+background:rgba(0,0,0,0.8);
+margin:15px;
+padding:15px;
+border-radius:10px;
+}
+
+button{
+padding:10px 20px;
+background:#22c55e;
+border:none;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#16a34a;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>💎 KarpillStore</h1>
+<h2>MLBB Diamond Recharge</h2>
+
+<div class="overlay">
+
+<input id="player" placeholder="Player ID">
+<input id="server" placeholder="Server ID">
+
+<select id="package">
+<option value="">Select Package</option>
+<option value="Weekly Pass">Weekly Pass</option>
+<option value="86 Diamonds">86 Diamonds</option>
+<option value="172 Diamonds">172 Diamonds</option>
+<option value="257 Diamonds">257 Diamonds</option>
+<option value="344 Diamonds">344 Diamonds</option>
+</select>
+
+<br><br>
+
+<button onclick="order()">Order Now</button>
+
+</div>
+
+<script>
+
+function order(){
+
+var player=document.getElementById("player").value
+var server=document.getElementById("server").value
+var pack=document.getElementById("package").value
+
+var message="Hello I want "+pack+" in MLBB.%0APlayer ID: "+player+"%0AServer ID: "+server
+
+window.open("https://wa.me/YOURNUMBER?text="+message)
+
+}
+
+</script>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+
+<head>
+<title>KarpillStore MLBB Recharge</title>
+
+<style>
+
+body{
+font-family: Arial;
+background-image:url("background.jpg");
+background-size:cover;
+background-position:center;
+text-align:center;
+color:white;
+}
+
+.overlay{
+background:rgba(0,0,0,0.7);
+padding:20px;
+margin:40px auto;
+width:350px;
+border-radius:15px;
+}
+
+input,select{
+width:90%;
+padding:10px;
+margin:10px;
+border-radius:8px;
+border:none;
+}
+
+.card{
+background:rgba(0,0,0,0.8);
+margin:15px;
+padding:15px;
+border-radius:10px;
+}
+
+button{
+padding:10px 20px;
+background:#22c55e;
+border:none;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#16a34a;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>💎 KarpillStore</h1>
+<h2>MLBB Diamond Recharge</h2>
+
+<div class="overlay">
+
+<input id="player" placeholder="Player ID">
+<input id="server" placeholder="Server ID">
+
+<select id="package">
+<option value="">Select Package</option>
+<option value="Weekly Pass">Weekly Pass</option>
+<option value="86 Diamonds">86 Diamonds</option>
+<option value="172 Diamonds">172 Diamonds</option>
+<option value="257 Diamonds">257 Diamonds</option>
+<option value="344 Diamonds">344 Diamonds</option>
+</select>
+
+<br><br>
+
+<button onclick="order()">Order Now</button>
+
+</div>
+
+<script>
+
+function order(){
+
+var player=document.getElementById("player").value
+var server=document.getElementById("server").value
+var pack=document.getElementById("package").value
+
+var message="Hello I want "+pack+" in MLBB.%0APlayer ID: "+player+"%0AServer ID: "+server
+
+window.open("https://wa.me/YOURNUMBER?text="+message)
+
+}
+
+</script>
+
+</body>
+</html>
