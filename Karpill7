@@ -13,7 +13,10 @@ background:#0b0f1a;
 color:white;
 text-align:center;
 }
-
+<div class="banner">
+<h1>💎 KarpillStore</h1>
+<p>Fast & Cheap MLBB Diamond Recharge</p>
+</div>
 header{
 background:#111827;
 padding:20px;
@@ -27,6 +30,38 @@ background-size:cover;
 padding:80px 20px;
 font-size:30px;
 }
+.banner{
+background:url("mlbb-banner.jpg");
+background-size:cover;
+background-position:center;
+padding:120px 20px;
+font-size:28px;
+}
+.card{
+background:#111827;
+border-radius:12px;
+box-shadow:0 0 15px #00ffff;
+padding:20px;
+}
+<img src="diamond.png" width="80">
+button{
+background:#3b82f6;
+padding:10px 20px;
+border:none;
+border-radius:8px;
+transition:0.3s;
+}
+
+button:hover{
+background:#2563eb;
+transform:scale(1.1);
+}
+<div class="features">
+<h2>Why Choose KarpillStore?</h2>
+<p>⚡ Instant Delivery</p>
+<p>💎 Cheap Diamonds</p>
+<p>🔒 Safe Recharge</p>
+</div>
 
 .formbox{
 background:#111827;
