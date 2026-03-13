@@ -341,3 +341,90 @@ window.open("https://wa.me/9366769776text="+msg)
 <a href="upi://pay?pa=9366769776@fam=DiamondStore&cu=INR">
 <button>Pay with UPI</button>
 </a>
+<div class="store">
+
+<div class="card">
+<img src="diamond.png">
+<h3>Weekly Pass</h3>
+<p>₹160</p>
+<button onclick="buy('Weekly Pass')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>86 Diamonds</h3>
+<p>₹90</p>
+<button onclick="buy('86 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>172 Diamonds</h3>
+<p>₹180</p>
+<button onclick="buy('172 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>257 Diamonds</h3>
+<p>₹270</p>
+<button onclick="buy('257 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>344 Diamonds</h3>
+<p>₹350</p>
+<button onclick="buy('344 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>429 Diamonds</h3>
+<p>₹440</p>
+<button onclick="buy('429 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>514 Diamonds</h3>
+<p>₹520</p>
+<button onclick="buy('514 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>706 Diamonds</h3>
+<p>₹700</p>
+<button onclick="buy('706 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>878 Diamonds</h3>
+<p>₹880</p>
+<button onclick="buy('878 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>963 Diamonds</h3>
+<p>₹960</p>
+<button onclick="buy('963 Diamonds')">Buy</button>
+</div>
+
+</div>
+<script>
+
+function buy(pack){
+
+var player=document.getElementById("player").value
+var server=document.getElementById("server").value
+
+var msg="Hello I want "+pack+"%0APlayer ID:"+player+"%0AServer ID:"+server
+
+window.open("https://wa.me/91YOURNUMBER?text="+msg)
+
+}
+
+</script>
