@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>KarpillStore MLBB Recharge</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:url("background.jpg");
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+}
+
+header{
+background:rgba(0,0,0,0.7);
+padding:20px;
+font-size:28px;
+}
+
+.formbox{
+background:rgba(0,0,0,0.8);
+padding:20px;
+margin:20px auto;
+width:300px;
+border-radius:12px;
+}
+
+input{
+width:90%;
+padding:10px;
+margin:10px;
+border-radius:6px;
+border:none;
+}
+
+.store{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card{
+background:rgba(0,0,0,0.8);
+margin:15px;
+padding:15px;
+width:200px;
+border-radius:12px;
+box-shadow:0 0 15px #00ffff;
+}
+
+.card img{
+width:100px;
+margin-bottom:10px;
+}
+
+button{
+background:#22c55e;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+background:#16a34a;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+💎 KarpillStore MLBB Recharge
+</header>
+
+<div class="formbox">
+
+<input id="player" placeholder="Player ID">
+<input id="server" placeholder="Server ID">
+
+</div>
+
+<div class="store">
+
+<div class="card">
+<img src="weeklypass.png">
+<h3>Weekly Pass</h3>
+<p>₹160</p>
+<button onclick="buy('Weekly Pass')">Buy</button>
+</div>
+
+<div class="card">
+<img src="86diamond.png">
+<h3>86 Diamonds</h3>
+<p>₹90</p>
+<button onclick="buy('86 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="172diamond.png">
+<h3>172 Diamonds</h3>
+<p>₹180</p>
+<button onclick="buy('172 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="257diamond.png">
+<h3>257 Diamonds</h3>
+<p>₹270</p>
+<button onclick="buy('257 Diamonds')">Buy</button>
+</div>
+
+</div>
+
+<script>
+
+function buy(pack){
+
+var player=document.getElementById("player").value
+var server=document.getElementById("server").value
+
+var msg="Hello I want "+pack+" in MLBB.%0APlayer ID: "+player+"%0AServer ID: "+server
+
+window.open("https://wa.me/YOURNUMBER?text="+msg)
+
+}
+
+</script>
+
+</body>
+
+</html>
