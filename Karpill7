@@ -3,6 +3,20 @@
 <head>
 
 <title>KarpillStore</title>
+<script>
+
+function buy(pack){
+
+var player=document.getElementById("player").value
+var server=document.getElementById("server").value
+
+var msg="Hello I want "+pack+"%0APlayer ID:"+player+"%0AServer ID:"+server
+
+window.open("https://wa.me/91YOURNUMBER?text="+msg)
+
+}
+
+
 
 <style>
 
@@ -414,17 +428,3 @@ window.open("https://wa.me/9366769776text="+msg)
 </div>
 
 </div>
-<script>
-
-function buy(pack){
-
-var player=document.getElementById("player").value
-var server=document.getElementById("server").value
-
-var msg="Hello I want "+pack+"%0APlayer ID:"+player+"%0AServer ID:"+server
-
-window.open("https://wa.me/91YOURNUMBER?text="+msg)
-
-}
-
-</script>
