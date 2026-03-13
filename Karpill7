@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>KarpillStore</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#0b0f1a;
+color:white;
+text-align:center;
+}
+
+header{
+background:#111827;
+padding:20px;
+font-size:28px;
+box-shadow:0 0 15px #00ffff;
+}
+
+.banner{
+background:url("banner.jpg");
+background-size:cover;
+padding:80px 20px;
+font-size:30px;
+}
+
+.formbox{
+background:#111827;
+margin:20px auto;
+padding:20px;
+width:300px;
+border-radius:10px;
+}
+
+input{
+width:90%;
+padding:10px;
+margin:10px;
+border-radius:6px;
+border:none;
+}
+
+.store{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:#111827;
+padding:20px;
+border-radius:12px;
+box-shadow:0 0 10px #00ffff;
+}
+
+.card img{
+width:80px;
+}
+
+button{
+background:#3b82f6;
+border:none;
+padding:10px 20px;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#2563eb;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+💎 KarpillStore
+</header>
+
+<div class="banner">
+Mobile Legends Diamond Recharge
+</div>
+
+<div class="formbox">
+
+<input id="player" placeholder="Player ID">
+<input id="server" placeholder="Server ID">
+
+</div>
+
+<div class="store">
+
+<div class="card">
+<img src="diamond.png">
+<h3>Weekly Pass</h3>
+<p>₹160</p>
+<button onclick="buy('Weekly Pass')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>86 Diamonds</h3>
+<p>₹90</p>
+<button onclick="buy('86 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>172 Diamonds</h3>
+<p>₹180</p>
+<button onclick="buy('172 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>257 Diamonds</h3>
+<p>₹270</p>
+<button onclick="buy('257 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>344 Diamonds</h3>
+<p>₹350</p>
+<button onclick="buy('344 Diamonds')">Buy</button>
+</div>
+
+</div>
+
+<script>
+
+function buy(pack){
+
+var player=document.getElementById("player").value
+var server=document.getElementById("server").value
+
+var msg="Hello I want "+pack+"%0APlayer ID:"+player+"%0AServer ID:"+server
+
+window.open("https://wa.me/YOURNUMBER?text="+msg)
+
+}
+
+</<!DOCTYPE html>
+<html>
+<head>
+
+<title>KarpillStore</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#0b0f1a;
+color:white;
+text-align:center;
+}
+
+header{
+background:#111827;
+padding:20px;
+font-size:28px;
+box-shadow:0 0 15px #00ffff;
+}
+
+.banner{
+background:url("banner.jpg");
+background-size:cover;
+padding:80px 20px;
+font-size:30px;
+}
+
+.formbox{
+background:#111827;
+margin:20px auto;
+padding:20px;
+width:300px;
+border-radius:10px;
+}
+
+input{
+width:90%;
+padding:10px;
+margin:10px;
+border-radius:6px;
+border:none;
+}
+
+.store{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:#111827;
+padding:20px;
+border-radius:12px;
+box-shadow:0 0 10px #00ffff;
+}
+
+.card img{
+width:80px;
+}
+
+button{
+background:#3b82f6;
+border:none;
+padding:10px 20px;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#2563eb;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+💎 KarpillStore
+</header>
+
+<div class="banner">
+Mobile Legends Diamond Recharge
+</div>
+
+<div class="formbox">
+
+<input id="player" placeholder="Player ID">
+<input id="server" placeholder="Server ID">
+
+</div>
+
+<div class="store">
+
+<div class="card">
+<img src="diamond.png">
+<h3>Weekly Pass</h3>
+<p>₹160</p>
+<button onclick="buy('Weekly Pass')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>86 Diamonds</h3>
+<p>₹90</p>
+<button onclick="buy('86 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>172 Diamonds</h3>
+<p>₹180</p>
+<button onclick="buy('172 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>257 Diamonds</h3>
+<p>₹270</p>
+<button onclick="buy('257 Diamonds')">Buy</button>
+</div>
+
+<div class="card">
+<img src="diamond.png">
+<h3>344 Diamonds</h3>
+<p>₹350</p>
+<button onclick="buy('344 Diamonds')">Buy</button>
+</div>
+
+</div>
+
+<script>
+
+function buy(pack){
+
+var player=document.getElementById("player").value
+var server=document.getElementById("server").value
+
+var msg="Hello I want "+pack+"%0APlayer ID:"+player+"%0AServer ID:"+server
+
+window.open("https://wa.me/YOURNUMBER?text="+msg)
+
+}
+
+</script>
+
+</body>
+</html></body>
+</html>
