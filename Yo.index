@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>KarpillStore MLBB Recharge</title>
+
+<style>
+
+body{
+font-family: Arial;
+background-image:url("background.jpg");
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+}
+
+.container{
+background:rgba(0,0,0,0.7);
+padding:30px;
+margin:50px auto;
+width:320px;
+border-radius:15px;
+}
+
+input,select{
+width:90%;
+padding:10px;
+margin:10px;
+border-radius:8px;
+border:none;
+}
+
+button{
+padding:12px 25px;
+background:#22c55e;
+color:white;
+border:none;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#16a34a;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>💎 KarpillStore</h1>
+<h2>MLBB Diamond Recharge</h2>
+
+<div class="container">
+
+<input type="text" placeholder="Player ID">
+
+<input type="text" placeholder="Server ID">
+
+<select>
+<option>Select Package</option>
+<option>Weekly Pass</option>
+<option>86 Diamonds</option>
+<option>172 Diamonds</option>
+<option>257 Diamonds</option>
+<option>344 Diamonds</option>
+</select>
+
+<button onclick="order()">Order Now</button>
+
+</div>
+
+<script>
+
+function order(){
+alert("Send payment and screenshot on WhatsApp to complete order.");
+}
+
+</script>
+
+</body>
+
+</html>
