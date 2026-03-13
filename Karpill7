@@ -294,7 +294,7 @@ var server=document.getElementById("server").value
 
 var msg="Hello I want "+pack+"%0APlayer ID:"+player+"%0AServer ID:"+server
 
-window.open("https://wa.me/YOURNUMBER?text="+msg)
+window.open("https://wa.me/9366769776text="+msg)
 
 }
 
@@ -303,3 +303,6 @@ window.open("https://wa.me/YOURNUMBER?text="+msg)
 </body>
 </html></body>
 </html>
+<a href="upi://pay?pa=9366769776@fam=DiamondStore&cu=INR">
+<button>Pay with UPI</button>
+</a>
